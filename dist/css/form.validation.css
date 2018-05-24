@@ -1,0 +1,61 @@
+@-webkit-keyframes input_invalid {
+    0% 		{ background: url(../img/app-form-invalid.png) no-repeat 110% center #fff; }
+    50% 	{ background: url(../img/app-form-invalid.png) no-repeat 90% center #fff; } 
+    100% 	{ background: url(../img/app-form-invalid.png) no-repeat 95% center #fff !important; }
+}
+
+@-webkit-keyframes input_valid {
+    0% 		{ background: url(../img/app-form-valid.png) no-repeat 110% center #fff; }
+    50% 	{ background: url(../img/app-form-valid.png) no-repeat 90% center #fff; } 
+    100% 	{ background: url(../img/app-form-valid.png) no-repeat 95% center #fff; }
+}
+
+*:focus {
+    outline: none;
+}
+
+.vue-errors-list,
+.vue-errors-list filled {
+	display: none !important;
+}
+
+.vue-error {
+
+	background: #f7f7f7 url(../img/app-form-invalid.png) no-repeat 96% center !important; 
+	-webkit-animation: input_invalid .25s;
+    -moz-animation:    input_invalid .25s;
+    -o-animation:      input_invalid .25s;
+    animation:         input_invalid .25s;
+
+}
+
+.vue-error:focus {
+    background: url(../img/app-form-invalid.png) no-repeat 120% center #222 !important; 
+    color: #fff;
+}
+
+.vue-success {
+
+	background: url(../img/app-form-valid.png) no-repeat 96% center #f7f7f7 !important; 
+	/* border-bottom: 1px solid #585858 !important; */
+
+	-webkit-animation: input_valid .25s;
+    -moz-animation:    input_valid .25s;
+    -o-animation:      input_valid .25s;
+    animation:         input_valid .25s;
+
+}
+
+.vue-success:focus { 
+    background: url(../img/app-form-valid.png) no-repeat 120% center #222 !important;
+    color: #fff;
+}
+
+input .valid {
+	background: #fff url(../img/app-form-valid.png) no-repeat 96% center;
+    color: #000;
+}
+
+input .invalid {
+	background: #ff4f4f;
+}

@@ -1,0 +1,73 @@
+.Splash {
+	z-index: 1000;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	display: block;
+	position: fixed;
+
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+}
+
+.Splash .Top {
+	width: 100%;
+	height: 40vh;
+}
+
+.Splash .Top img {
+	position: relative;
+	height: 70%;
+	width: auto;
+	
+	top: 20%;
+	margin: 0;
+}
+
+.Splash .Bottom {
+	width: 100%;
+	height: 50vh;
+}
+
+
+@media only screen and (max-width: 40em) { /*  and (orientation: portrait)  */
+
+	.Splash .Top {
+		width: 100%;
+		height: 40%;
+
+		/* background: green !important; */
+	}
+
+	.Splash .Top img {
+		height: 80%;
+	}
+
+
+	.Splash .Bottom {
+		width: 100%;
+		height: 50%;
+	}
+
+
+}
+
+@media screen and (min-width: 100em) {
+
+	.Splash .Bottom h1 {
+		margin: 4vh 0 0 0;
+		font-size: 4vw;
+	}
+
+	.Splash .Bottom h2 {
+		padding: 0; margin: 0;
+		font-size: 2vw;
+		font-weight: 100;
+	}
+
+}

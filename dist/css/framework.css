@@ -1,0 +1,422 @@
+/*///////////////////////////////////////*/
+/* Copyright Anubz Innovative Solutions	 */
+/* Last revision: 23/04/2018			 */
+/*///////////////////////////////////////*/
+
+.All100 {
+	width: 100vw;
+    height: 100vh;
+}
+    
+.Table {
+	display: table;
+    clear: all;
+}
+
+.Content {
+	padding: .5em;
+}
+
+.Auto
+{
+	margin: 0 auto !important;
+}
+
+.AbsoluteCenter {
+	  position: absolute;
+	  margin: auto;
+
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+
+	  width: 50vw;
+	  height: 50vh;
+}
+
+/*///////////////////////////////////////*/
+/* floating */
+/*///////////////////////////////////////*/
+
+
+.fLeft {
+	display: inline-block ;
+	float: left;
+}
+
+.fRight {
+	display: inline-block ;
+	float: right;
+}
+
+.fCenter {
+	display: inline-block ;
+	margin: auto;
+}
+
+.fNone {
+	float: none;
+	clear: all;
+}
+
+
+/*///////////////////////////////////////*/
+/* sizes */
+/*////////////////////////////////////////*/
+
+.w05 {
+	width: 5vw;
+}
+
+.w10 {
+	width: 10vw;
+}
+
+.w15 {
+	width: 15vw;
+}
+
+.w20 {
+	width: 20vw;
+}
+
+.w25 {
+	width: 25vw;
+}
+
+.w30 {
+	width: 30vw;
+}
+
+.w33 {
+	width: 33.33vw;
+}
+
+.w40 {
+	width: 40vw;
+}
+
+.w45 {
+	width: 45vw;
+}
+
+.w50 {
+	width: 50vw;
+}
+
+.w55 {
+	width: 55vw;
+}
+
+.w60{
+	width: 60vw;
+}
+
+.w66 {
+	width: 66.66vw;
+}
+
+.w70 {
+	width: 70vw;
+}
+
+.w75 {
+	width: 75vw;
+}
+
+.w80 {
+	width: 80vw;
+}
+
+.w85 {
+	width: 85vw;
+}
+
+.w90 {
+	width: 90vw;
+}
+
+.w95 {
+	width: 95vw;
+}
+
+.w100 {
+	width: 100vw;
+}
+
+
+/* percentage */
+
+.w10p {
+	width: 10%;
+}
+
+.w15p {
+	width: 15%;
+}
+
+.w20p {
+	width: 20%;
+}
+
+.w25p {
+	width: 25%;
+}
+
+.w30p {
+	width: 30%;
+}
+
+.w33p {
+	width: 33.33%;
+}
+
+.w40p {
+	width: 40%;
+}
+
+.w45p {
+	width: 45%;
+}
+
+.w50p {
+	width: 50%;
+}
+
+.w55p {
+	width: 55%;
+}
+
+.w60p {
+	width: 60%;
+}
+
+.w65p {
+	width: 65%;
+}
+
+.w66p {
+	width: 66.66%;
+}
+
+.w70p {
+	width: 70%;
+}
+
+.w75p {
+	width: 75%;
+}
+
+.w80p {
+	width: 80%;
+}
+
+.w85p {
+	width: 85%;
+}
+
+.w90p {
+	width: 90%;
+}
+
+.w95p {
+	width: 95%;
+}
+
+.w100p {
+	width: 100%;
+}
+
+
+
+/* em */
+
+.w10e {
+	width: 10em;
+}
+
+
+
+.w25.Overflow, 
+.w30.Overflow, 
+.w33.Overflow,
+.w50.Overflow,
+.w75.Overflow,
+.w66.Overflow,
+.w100.Overflow
+{
+	overflow: hidden !important;
+}
+
+
+/*////////////////////////////////////////*/
+
+.h05 {
+	min-height: 5vh;
+}
+
+.h10 {
+	min-height: 10vh;
+}
+
+.h15 {
+	min-height: 15vh;
+}
+
+.h20 {
+	min-height: 20vh;
+}
+
+.h30 {
+	min-height: 30vh;
+}
+
+.h40 {
+	min-height: 40vh;
+}
+
+.h50 {
+	min-height: 50vh; 
+}
+
+.h60 {
+	min-height: 60vh; 
+}
+
+.h70 {
+	min-height: 70vh; 
+}
+
+.h80 {
+	min-height: 80vh; 
+}
+
+.h90 {
+	min-height: 90vh; 
+}
+
+.h100 {
+	min-height: 100vh;
+}
+
+
+
+.h20p {
+	min-height: 20%;
+}
+
+.h30p {
+	min-height: 30%;
+}
+
+
+.h40p {
+	min-height: 40%;
+}
+
+.h50p {
+	min-height: 50%; 
+}
+
+.h60p {
+	min-height: 60%; 
+}
+
+.h70p {
+	min-height: 70%; 
+}
+
+.h80p {
+	min-height: 80%; 
+}
+
+.h100p {
+	min-height: 100%;
+}
+
+
+/*////////////////////////////////////////*/
+
+
+.tCenter {
+	text-align: center;
+}
+
+.tLeft {
+	text-align: left;
+}
+
+.tRight {
+	text-align: right;
+}
+
+.tThin {
+    font-weight: 100 !important;
+}
+
+.tMid {
+    font-weight: 300 !important;
+}
+
+.tBold {
+    font-weight: bold !important;
+}
+
+.tLine {
+	text-decoration: line-through !important;
+}
+
+/* Mobile
+/////////////////////////////////////////*/
+@media only screen and (max-width: 40em)
+{
+
+	.fRight,
+	.fLeft {
+		display: block;
+		float: none;
+		clear: all;
+	}
+
+	.All100 {
+		width: 100%;
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+
+	.w25, .w33, .w40, .w50, .w75, .w66, .w70 {
+		width: 100% !important;
+		text-align: center;
+		float: none;
+		display: block;
+	}
+
+	.w33p, .w40p, .w50p, .w75p, .w66p, .w70p {
+		width: 100% !important;
+		float: none;
+		display: block;
+	}
+
+	.w33e, .w40e, .w50e, .w75e, .w66e, .w70e {
+		width: 100% !important;
+		float: none;
+		display: block;
+	}
+	
+	.Content {
+		padding: 3em;
+	}
+
+}
+
+	/* Landscape
+	/////////////////////////////////////////*/
+
+	@media screen and (max-width: 48em) 
+	{
+		.Content {
+			padding: 1em;
+		}
+	}

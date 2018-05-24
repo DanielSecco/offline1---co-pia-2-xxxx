@@ -1,0 +1,84 @@
+
+/*////////////////////////////////////////*/
+/* vue transitions */
+/*////////////////////////////////////////*/
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+
+/*////////////////////////////////////////*/
+/* general - old */
+/*////////////////////////////////////////*/
+
+.EasyInOut {
+
+	-webkit-transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	   -moz-transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	     -o-transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	        transition: all 250ms cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+
+	-webkit-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	   -moz-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	     -o-transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); 
+	        transition-timing-function: cubic-bezier(0.420, 0.000, 0.580, 1.000); /* ease-in-out */
+
+	        	
+}
+
+.AnimEaseInOut {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+@keyframes aSpin {
+    to {transform:rotate(359deg);}
+}
+
+.aSpin {
+    animation: aSpin 2s linear infinite;
+}
+
+@keyframes aSpinHalf {
+    0% {transform:rotate(0deg); opacity: 0;}
+    10% {transform:rotate(0deg); opacity: 1;}
+    35% {transform:rotate(0deg); opacity: 1;}
+	55% {transform:rotate(90deg);  opacity: 1; }
+	75% {transform:rotate(90deg);  opacity: 1; }
+	100% {transform:rotate(90deg); opacity: 0;}
+}
+
+.aSpinHalf {
+    animation: aSpinHalf 2s linear infinite;
+}
+
+
+@keyframes aPulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.125);}
+  100% {transform: scale(1);}
+}
+
+.aPulse {
+  animation-name: aPulse;
+  animation-duration: 200ms ease-in infinite;
+}
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.animatedBackground {
+  animation-name: animatedBackground;
+  animation-duration: 200ms ease-in infinite;
+}

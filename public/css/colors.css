@@ -1,0 +1,126 @@
+/* Cores padrões
+/* * * * * * * * * * * * * * * * * * * * */
+
+.cWhite {
+	color: #fff;
+}
+
+.cYellow {
+	color: #fff484;
+}
+
+.cGreen {
+	color: #AADE76; /*#54CA6A;*/
+}
+
+.cBlue {
+	color: #3b5998;
+}
+
+.cBlueLight {
+	color: #4991e2;
+}
+
+.cRed {
+	color: #E85B5B;
+}
+
+.cGrayLight {
+	color: #f7f7f7; /*#f2f2f2;*/
+}
+
+.cGray {
+	color: #9B9B9B; /*#f2f2f2;*/
+}
+
+.cChumbo {
+	color: #4a4a4a;
+}
+
+.cDark {
+	color: #646464;
+}
+
+.cNegro {
+	color: #222222;
+}
+
+.cBlack {
+	color: #000;
+}
+
+.cFacebook {
+	color: #3b5998;
+}
+
+
+
+
+/* Backgrounds padrões
+/* * * * * * * * * * * * * * * * * * * * */
+
+.bWhite {
+	background: #fff;
+}
+
+.bYellow {
+	background: #fff484;
+}
+
+.bGreen {
+	background: #AADE76; /*#54CA6A;*/
+}
+
+.bBlue {
+	background: #3b5998;
+}
+
+.bBlueLight {
+	background: #4991e2;
+}
+
+.bRed {
+	background: #E85B5B;
+}
+
+.bGrayLight {
+	background: #f7f7f7; /*#f2f2f2;*/
+}
+
+.bGray {
+	background: #9B9B9B; /*#f2f2f2;*/
+}
+
+.bChumbo {
+	background: #4a4a4a;
+}
+
+.bDark {
+	background: #646464;
+}
+
+.bNegro {
+	background: #222222;
+}
+
+.bBlack {
+	background: #000;
+}
+
+.bFacebook {
+	background: #3b5998;
+}
+
+
+/* Backgrounds gradients
+/* * * * * * * * * * * * * * * * * * * * */
+.bGradientGray {
+	background: rgba(242,242,242,1);
+	background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0 );
+}

@@ -1,0 +1,14 @@
+<svg width="178px" height="178px" viewBox="0 0 178 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M88,176 C136.601058,176 176,136.601058 176,88 C176,39.398942 136.601058,0 88,0 C39.398942,0 0,39.398942 0,88 C0,136.601058 39.398942,176 88,176 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(1.000000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Oval-2" stroke="#FFFFFF" stroke-width="2" xlink:href="#path-1"></use>
+            <path d="M77.9607997,116.491772 C77.2943601,117.159553 76.3077806,117.179195 75.6218048,116.491772 L45.5146047,86.3239885 C43.9530613,84.7593029 46.2986463,82.4155846 47.8535996,83.9802869 L76.7916368,112.976555 L129.146385,60.5164555 C130.701405,58.9517698 133.04694,61.2955217 131.48538,62.860157 L77.9607997,116.491772 Z" id="Page-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
